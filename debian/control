@@ -1,0 +1,16 @@
+Source: kinguard-keyring
+Section: misc
+Priority: important
+Maintainer: Tor Krill <tor@openproducts.se>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: http://www.kinguardproject.org
+
+Package: kinguard-keyring
+Architecture: all
+Depends: gpgv, ${misc:Depends}
+Recommends: gnupg
+Breaks: apt (<< 0.7.25.1)
+Description: GnuPG keys of the Kinguardproject
+  The Debian project digitally signs its Release files. This package
+  contains the archive keys used for that
