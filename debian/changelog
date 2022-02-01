@@ -1,3 +1,9 @@
+kinguard-keyring (1.1) vigrid; urgency=medium
+
+  * Bullseye rebuild
+
+ -- Tor Krill <tor@openproducts.se>  Tue, 01 Feb 2022 08:19:08 +0100
+
 kinguard-keyring (1.0) vili; urgency=low
 
   * Initial Release.
